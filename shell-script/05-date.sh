@@ -9,6 +9,6 @@ sleep 10
 
 ENDTIME=$(date +%s)
 
-TOTALTIME=(($STARTTIME - $ENDTIME))
+TOTALTIME=$(($STARTTIME - $ENDTIME))
 
 echo "Time taken to run the script is: $TOTALTIME"
